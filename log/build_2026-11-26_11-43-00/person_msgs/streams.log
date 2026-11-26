@@ -1,0 +1,29 @@
+[0.012s] Invoking command in '/home/ura0111/ros2_ws/src/person_msgs/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ura0111/ros2_ws/install/mypkg:/opt/ros/jazzy /usr/bin/cmake /home/ura0111/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/ura0111/ros2_ws/src/person_msgs/install/person_msgs
+[0.265s] -- The C compiler identification is GNU 13.3.0
+[0.960s] -- The CXX compiler identification is GNU 13.3.0
+[1.738s] -- Detecting C compiler ABI info
+[2.048s] -- Detecting C compiler ABI info - done
+[2.057s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.061s] -- Detecting C compile features
+[2.062s] -- Detecting C compile features - done
+[2.165s] -- Detecting CXX compiler ABI info
+[2.430s] -- Detecting CXX compiler ABI info - done
+[2.440s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.440s] -- Detecting CXX compile features
+[2.441s] -- Detecting CXX compile features - done
+[2.459s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.601s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.707s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.720s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.944s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.989s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.991s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[2.991s]   rosidl_generate_interfaces() the passed file 'msg/Person.msg' doesn't exist
+[2.991s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[2.991s]   '/home/ura0111/ros2_ws/src/person_msgs'
+[2.991s] Call Stack (most recent call first):
+[2.992s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[2.992s] 
+[2.992s] [0m
+[2.992s] -- Configuring incomplete, errors occurred!
+[2.999s] Invoked command in '/home/ura0111/ros2_ws/src/person_msgs/build/person_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ura0111/ros2_ws/install/mypkg:/opt/ros/jazzy /usr/bin/cmake /home/ura0111/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/ura0111/ros2_ws/src/person_msgs/install/person_msgs
